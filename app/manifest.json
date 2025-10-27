@@ -1,0 +1,22 @@
+{
+  "name": "Heylock - AI Аналитика",
+  "short_name": "Heylock",
+  "description": "AI-аналитика для стартапов. Получайте инсайты из данных, просто задавая вопросы в чате.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
