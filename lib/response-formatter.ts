@@ -1,9 +1,3 @@
-/**
- * @file: lib/response-formatter.ts
- * @description: Форматирование ответов для графиков и UI
- * @created: 2025-10-27
- */
-
 import type { ChartData, ChartType } from './types';
 
 /**

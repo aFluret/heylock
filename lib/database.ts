@@ -1,10 +1,3 @@
-/**
- * @file: lib/database.ts
- * @description: Supabase клиент и утилиты для работы с базой данных
- * @dependencies: @supabase/supabase-js
- * @created: 2025-10-27
- */
-
 import { createClient } from '@supabase/supabase-js';
 import type { Session, Event } from './types';
 

@@ -1,10 +1,4 @@
 /**
- * @file: lib/sql-validator.ts
- * @description: Валидация и безопасность SQL-запросов, генерируемых AI
- * @created: 2025-10-27
- */
-
-/**
  * Результат валидации SQL
  */
 export interface SQLValidationResult {

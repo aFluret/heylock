@@ -1,9 +1,3 @@
-/**
- * @file: lib/error-handler.ts
- * @description: Централизованная обработка ошибок
- * @created: 2025-10-27
- */
-
 export class AppError extends Error {
   constructor(
     message: string,

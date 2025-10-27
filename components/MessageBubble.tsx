@@ -1,10 +1,3 @@
-/**
- * @file: components/MessageBubble.tsx
- * @description: Компонент для отображения одного сообщения в чате
- * @dependencies: ChartRenderer
- * @created: 2025-10-27
- */
-
 'use client';
 
 import type { Message } from '@/lib/types';

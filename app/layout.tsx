@@ -1,10 +1,3 @@
-/**
- * @file: app/layout.tsx
- * @description: Корневой layout приложения Heylock
- * @dependencies: globals.css
- * @created: 2025-10-27
- */
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";

@@ -1,17 +1,3 @@
-/**
- * @file: scripts/create-rpc-function.sql
- * @description: RPC функция для выполнения произвольных SQL запросов
- * @created: 2025-10-27
- * 
- * ВАЖНО: Выполните этот скрипт в Supabase SQL Editor
- * 
- * Инструкция:
- * 1. Откройте Supabase Dashboard
- * 2. Перейдите в SQL Editor
- * 3. Создайте New Query
- * 4. Скопируйте и выполните этот скрипт
- */
-
 -- Создаем RPC функцию для выполнения произвольного SQL
 CREATE OR REPLACE FUNCTION execute_raw_sql(sql_query text)
 RETURNS json

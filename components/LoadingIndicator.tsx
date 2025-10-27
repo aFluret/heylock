@@ -1,9 +1,3 @@
-/**
- * @file: components/LoadingIndicator.tsx
- * @description: Индикатор загрузки для ожидания ответа AI
- * @created: 2025-10-27
- */
-
 interface LoadingIndicatorProps {
   message?: string;
 }

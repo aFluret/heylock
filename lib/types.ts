@@ -1,9 +1,3 @@
-/**
- * @file: lib/types.ts
- * @description: TypeScript типы и интерфейсы для проекта
- * @created: 2025-10-27
- */
-
 // Тип сообщения в чате
 export interface Message {
   role: 'user' | 'assistant';

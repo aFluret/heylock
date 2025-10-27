@@ -1,9 +1,3 @@
-/**
- * @file: components/ErrorMessage.tsx
- * @description: Компонент для отображения ошибок
- * @created: 2025-10-27
- */
-
 interface ErrorMessageProps {
   error: string;
   onRetry?: () => void;

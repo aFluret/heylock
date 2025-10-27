@@ -1,10 +1,3 @@
-/**
- * @file: components/ChatInterface.tsx
- * @description: Основной компонент чат-интерфейса
- * @dependencies: MessageBubble, LoadingIndicator
- * @created: 2025-10-27
- */
-
 'use client';
 
 import { useState, useRef, useEffect } from 'react';

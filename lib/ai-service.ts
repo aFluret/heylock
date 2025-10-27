@@ -1,10 +1,3 @@
-/**
- * @file: lib/ai-service.ts
- * @description: Сервис для работы с Google Gemini API
- * @dependencies: @google/generative-ai
- * @created: 2025-10-27
- */
-
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import type { GeminiSQLResponse } from './types';
 

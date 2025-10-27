@@ -1,12 +1,3 @@
-/**
- * @file: scripts/seed-database.ts
- * @description: Скрипт для заполнения базы данных тестовыми данными
- * @dependencies: @supabase/supabase-js, dotenv
- * @created: 2025-10-27
- * 
- * Использование: npm run seed
- */
-
 import { config } from 'dotenv';
 import { createClient } from '@supabase/supabase-js';
 import type { Session, Event } from '../lib/types';

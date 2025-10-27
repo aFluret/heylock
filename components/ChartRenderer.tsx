@@ -1,10 +1,3 @@
-/**
- * @file: components/ChartRenderer.tsx
- * @description: Компонент для отрисовки графиков с помощью Recharts
- * @dependencies: recharts
- * @created: 2025-10-27
- */
-
 'use client';
 
 import {

@@ -1,9 +1,3 @@
-/**
- * @file: app/api/chat/route.ts
- * @description: API endpoint для обработки чат-запросов
- * @created: 2025-10-27
- */
-
 import { NextRequest, NextResponse } from 'next/server';
 import { generateSQL, interpretResults } from '@/lib/ai-service';
 import { validateSQL, ensureSafeSQL } from '@/lib/sql-validator';
@@ -126,10 +120,7 @@ export async function POST(request: NextRequest) {
   }
 }
 
-/**
- * Временное решение: выполнение простых SELECT запросов через Supabase SDK
- * В production версии нужно использовать RPC функцию
- */
+
 async function executeSimpleQuery(sql: string): Promise<{ data: any[] | null; error: any }> {
   try {
     // Парсим SQL чтобы определить таблицу и условия
@@ -141,8 +132,7 @@ async function executeSimpleQuery(sql: string): Promise<{ data: any[] | null; er
       tableName = 'events';
     }
 
-    // Для прототипа используем простой подход
-    // В реальном приложении нужно использовать SQL parser
+   
     
     let query = supabaseAdmin.from(tableName).select('*');
     
